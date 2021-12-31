@@ -1,0 +1,23 @@
+:root{
+    --color1: #181E4B;
+    --color2: #5E6282;
+    --color3: #DF6951;
+    --color4: #686D77;
+    --color5: #212832;
+    --color6: #1E1D4C;
+    --color7: #14183E;
+    --color8: #FF946D;
+    --color9: #080809; 
+    --white: #ffffff;
+}
+
+body{
+
+}
+*,
+*:after,
+*:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
