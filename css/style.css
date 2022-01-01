@@ -7,7 +7,8 @@
     --color6: #1E1D4C;
     --color7: #14183E;
     --color8: #FF946D;
-    --color9: #080809; 
+    --color9: #080809;
+    --color10: #F1A501;
     --white: #ffffff;
 }
 
@@ -86,4 +87,91 @@ li{
     font-size: 17px;
     font-weight: 500;
     text-transform: uppercase;
+}
+
+/* HERO CONTENT */
+.hero-content{
+    margin: 18px 0 97px 0;
+}
+.hero-content-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.desc-title{
+    margin-top: 112px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: var(--color3);
+    text-transform: uppercase;
+}
+.hero-content-desc{
+    width: 45%;
+}
+.desc-heading{
+    margin: 24px 0 38px 0;
+    font-family: 'Volkhov', serif;
+    font-size: 77px;
+    line-height: 84px;
+    color: var(--color1);
+}
+.desc-text{
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    font-weight: 500;
+    color: var(--color2);
+    margin-bottom: 34px;
+}
+.hero-content-btns{
+    display: flex;
+    align-items: center;
+}
+.btn-find{
+    width: 170px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--color10);
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 44px;
+}
+.btn-play-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.btn-play-img{
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color3);
+    border-radius: 50%;
+}
+.btn-play-img img{
+    width: 15px;
+    height: 15px;
+}
+.btn-play-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: var(--color4);
+    font-weight: 500;
+    margin-left: 21px;
+}
+.hero-content-img{
+    width: 55%;
+}
+.hero-content-img img{
+    width: 783px;
+    height: 764px;
 }
