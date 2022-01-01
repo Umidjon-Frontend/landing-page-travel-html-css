@@ -88,6 +88,8 @@ li{
     font-weight: 500;
     text-transform: uppercase;
 }
+/* HERO END */
+
 
 /* HERO CONTENT */
 .hero-content{
@@ -175,3 +177,59 @@ li{
     width: 783px;
     height: 764px;
 }
+/* HERO SECTION END */
+
+/* SERVICES */
+.services{
+    padding-bottom: 38px;
+    margin-bottom: 124px;
+}
+.services-container{
+    width: 100%;
+    max-width: 1089px;
+    margin: 0 auto;
+}
+.services-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color2);
+    text-transform: uppercase;
+    text-align: center;
+}
+.services-heading{
+    font-family: 'Volkhov', serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--color7);
+    margin-bottom: 110px;
+}
+.services-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color6);
+    text-align: center;
+    margin-top: 30px;
+}
+.category{
+    text-align: center;
+}
+.category-text{
+    width: 181px;
+    height: 78px;
+    text-align: center;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: var(--color2);
+    margin-top: 15px;
+}
+/* SERVICES END */
