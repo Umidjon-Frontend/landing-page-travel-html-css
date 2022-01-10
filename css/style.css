@@ -232,4 +232,85 @@ li{
     color: var(--color2);
     margin-top: 15px;
 }
+
 /* SERVICES END */
+
+/* DESTINATIONS */
+.destinations{
+    margin-bottom: 186px;
+}
+.destinations-container{
+    width: 100%;
+    max-width: 1102px;
+    margin: 0 auto;
+}
+.destinations-subheading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: var(--color2);
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.distinations-heading{
+    font-family: 'Volkhov', serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--color7);
+    text-align: center;
+    margin-bottom: 60px;
+}
+.destinations-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.destinations-item{
+    width: 315px;
+    height: 457px;
+    position: relative;
+    cursor: pointer;
+}
+.destinations-item:hover .destinations-item-card{
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+.destinations-item img{
+    border-radius: 24px;
+}
+.destinations-item-card{
+    position: absolute;
+    bottom: 0;
+    width: 315px;
+    height: 130px;
+    background-color: var(--white);
+    border-radius: 0 0 24px 24px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    padding: 27px 25px 42px 20px;
+    transition: all 0.3s ease-in-out;
+}
+.destinations-card-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: var(--color2);
+    margin-bottom: 19px;
+}
+.destinations-card-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: var(--color2);
+}
+.destinations-card-btn span{
+    margin-right: 15px;
+    color: #000;
+}
+/* DESTINATIONS END */
