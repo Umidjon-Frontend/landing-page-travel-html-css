@@ -390,7 +390,9 @@ li{
 
 /* Book a Trip END */
 
-
+.testimonials-section{
+    
+}
 .testimonials-section-container{
     width: 100%;
     max-width: 1165px;
@@ -402,7 +404,7 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 82px 0 88px 0;
+    padding: 82px 0 88px 0;
 }
 .circles-item{
     width: 12px;
@@ -412,4 +414,35 @@ li{
 }
 div.circles-item-activ{
     background-color: #39425D;
+}
+
+/* Logos */
+.logos{
+    margin-bottom: 111px;
+    margin-top: 96px;
+}
+.logos-container{
+    width: 100%;
+    max-width: 1073px;
+    margin: 0 auto;
+}
+.logos-items{
+    height: 162px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logos-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 241px;
+    height: 86px;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.logos-item:hover{
+    background-color: #ffffff;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
 }
